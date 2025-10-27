@@ -1,0 +1,28 @@
+{
+  "name": "final-task-js-sauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@wdio/cli": "^9.20.0",
+    "@wdio/devtools-service": "^0.0.0",
+    "@wdio/local-runner": "^9.20.0",
+    "@wdio/mocha-framework": "^9.20.0",
+    "@wdio/spec-reporter": "^9.20.0",
+    "@wdio/visual-service": "^9.0.0",
+    "chalk": "^4.1.2",
+    "stack-trace": "^1.0.0-pre2"
+  }
+}
