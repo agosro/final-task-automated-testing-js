@@ -24,7 +24,7 @@ The goal of this project is to automate the login flow of the SauceDemo platform
 - **Framework:** Mocha
 - **Assertion Library:** Node.js `assert`
 - **Automation Tool:** WebdriverIO v9
-- **Browsers Tested:** Chrome, Microsoft Edge (multi-browser setup)
+- **Browsers Tested:** Chrome, Microsoft Edge and Firefox (multi-browser setup)
 - **Page Object Pattern:** Implemented in `pages/login.pages.js`
 
 ---
