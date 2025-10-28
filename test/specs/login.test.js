@@ -8,7 +8,7 @@ describe('SauceDemo Login Feature', () => {
     await LoginPage.open();
   });
 
-  it('UC-1: Given empty credentials, when user clicks Login, then show "Username is required"', async () => {
+  it('UC-1: Given empty credentials, When user clicks Login, Then show "Username is required"', async () => {
     logger.info('Running UC-1: Empty credentials');
     await LoginPage.inputUsername.setValue('Agosro');
     await LoginPage.inputPassword.setValue('1234');
@@ -32,7 +32,7 @@ describe('SauceDemo Login Feature', () => {
     logger.info('UC-1 passed successfully');
   });
 
-  it('UC-2: Given username but no password, when user clicks Login, then show "Password is required"', async () => {
+  it('UC-2: Given username but no password, When user clicks Login, Then show "Password is required"', async () => {
     logger.info('Running UC-2: Missing password'); // Log the start of UC-2 test
 
     await LoginPage.inputUsername.setValue('standard_user'); // pasar el username

@@ -53,15 +53,15 @@ exports.config = {
     {
       browserName: 'chrome',
       'goog:chromeOptions': {
-        args: ['--disable-gpu'] 
+        args: [] 
       }
     },
-    // {
-    //   browserName: 'firefox',
-    //   'moz:firefoxOptions': {
-    //     args: [] 
-    //   }
-    // },
+    {
+      browserName: 'firefox',
+      'moz:firefoxOptions': {
+        args: [] 
+      }
+    },
     {
       browserName: 'MicrosoftEdge',
       'ms:edgeOptions': {
