@@ -84,7 +84,7 @@ npm install geckodriver --save-dev
 ```
 Or place the binary in:
 ```bash
-npm install geckodriver --save-dev
+C:\Program Files\geckodriver.exe
 ```
 
 ---
