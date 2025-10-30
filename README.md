@@ -74,6 +74,21 @@ npx wdio run ./wdio.conf.js
 
 ---
 
+## ⚠️ Note about Geckodriver
+
+Firefox testing uses Geckodriver, but due to GitHub rate-limit issues during installation,
+it was installed globally instead of locally in this project.
+If needed, you can manually install it with:
+```bash
+npm install geckodriver --save-dev
+```
+Or place the binary in:
+```bash
+npm install geckodriver --save-dev
+```
+
+---
+
 ## 👩‍💻 Author
 
 **Agostina Rocío Torres**  
