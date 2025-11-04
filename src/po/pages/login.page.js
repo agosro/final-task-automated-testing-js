@@ -1,4 +1,4 @@
-import logger from "../../utils/logger";
+import logger from "..//../configs/utils/logger";
 
 class LoginPage {
   get inputUsername() { return $('#user-name'); }

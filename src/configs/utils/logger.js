@@ -9,7 +9,7 @@ const baseLogger = pino({
     options: {
       colorize: true,
       translateTime: 'HH:MM:ss',
-      ignore: 'pid,hostname,level', // 👈 elimina el nivel duplicado
+      ignore: 'pid,hostname,level', //  elimina el nivel duplicado
     },
   },
 });
@@ -30,7 +30,7 @@ function getBrowserLabel() {
   return chalk.gray('[Unknown]');
 }
 
-// 🎨 Logger con etiquetas coloridas
+// Logger con etiquetas coloridas
 const logger = {
   info: (msg) => baseLogger.info(`${chalk.blueBright('INFO')}  ${getBrowserLabel()} ${msg}`),
   debug: (msg) => baseLogger.debug(`${chalk.gray('DEBUG')} ${getBrowserLabel()} ${msg}`),

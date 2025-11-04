@@ -1,6 +1,6 @@
-import LoginPage from '../pages/login.pages';
+import LoginPage from '../po/pages/login.page';
 import assert from 'assert';
-import logger from '../../utils/logger';
+import logger from '../configs/utils/logger';
 
 describe('SauceDemo Login Feature', () => {
 
