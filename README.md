@@ -24,7 +24,7 @@ The goal of this project is to automate the login flow of the SauceDemo platform
 - **Framework:** Mocha
 - **Assertion Library:** Node.js `assert`
 - **Automation Tool:** WebdriverIO v9
-- **Browsers Tested:** Chrome, Microsoft Edge (multi-browser setup)
+- **Browsers Tested:** Chrome, Microsoft Edge and Firefox (multi-browser setup)
 - **Page Object Pattern:** Implemented in `pages/login.pages.js`
 
 ---
@@ -71,6 +71,21 @@ npx wdio run ./wdio.conf.js
 - Implementation of the **Page Object Model (POM)**
 - Multi-browser testing configuration
 - Synchronization and element waiting strategies
+
+---
+
+## ⚠️ Note about Geckodriver
+
+Firefox testing uses Geckodriver, but due to GitHub rate-limit issues during installation,
+it was installed globally instead of locally in this project.
+If needed, you can manually install it with:
+```bash
+npm install geckodriver --save-dev
+```
+Or place the binary in:
+```bash
+C:\Program Files\geckodriver.exe
+```
 
 ---
 
